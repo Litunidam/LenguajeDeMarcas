@@ -18,7 +18,19 @@ img {
 .columna {
     flex-direction: column;
 }
+a {
+    text-decoration: none;
+    color: black;
+}
 
+.derecha {
+    justify-content: space-between;
+    padding:40px;
+    font-size: 40px;
+    text-align: right;
+    color: black;
+    flex-direction: row;
+}
 .centrarTexto{
     display: flex;
     text-align: center;
