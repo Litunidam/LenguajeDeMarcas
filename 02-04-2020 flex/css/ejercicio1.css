@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img {
+    width: 100%;
+}
+.primero {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+section div.ejemplo1 {
+    background-color: black;
+    color: white;
+    height: 300px;
+    border: 2px solid white;
+    padding: 5%;
+    width: 25%;
+}
+p {
+    padding: 2%;
+}
+
+
+/*ejemplo 2*/
+
+
+.segundo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+.segundo div {
+    width: 35%;
+    padding: 2%;
+}
+
+
+/* ejemplo 3*/
+
+
+.row {
+    display: flex;
+}
+.col-3 {
+    width: 25%;
+    padding: 2%;
+}
+.col-4 {
+    width: 33.33%;
+    padding: 2%;
+}
+.col-8 {
+    width: 66.66%;
+    padding: 2%;
+}
+button {
+    display: block;
+}
