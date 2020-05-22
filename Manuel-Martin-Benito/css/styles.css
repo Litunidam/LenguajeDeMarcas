@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.col-1 {
+    width: 8.33%;
+}
+.col-2 { 
+    width: 16.66%;
+}
+.col-3 {
+    width: 25%;
+}
+.col-4 {
+    width: 33.33%;
+}
+.col-5 {
+    width: 41.66%;
+}
+.col-6 {
+    width: 50%;
+}
+.col-7 {
+    width: 58.33%;
+}
+.col-8 {
+    width: 66.66%;
+}
+.col-9 {
+    width: 75%;
+}
+.col-10 {
+    width: 83.33%;
+}
+.col-11 {
+    width: 91.66%;
+}
+.col-12 {
+    width: 100%;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+img {
+    max-width: 100%;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+}
+.column {
+    flex-direction: column;
+}
+.separation {
+    padding: 1%;
+}
+.moreSeparation {
+    padding: 4%;
+}
+header {
+    padding: 2%;
+    font-size: x-large;
+    font-family: 'Source Code Pro', monospace;
+}
+.derecha {
+    text-align: right;
+    flex-direction: row;
+}
+input {
+    padding: 0.3%;
+    width: 10%;
+}
+nav {
+    text-align: center;
+    background-color:rgb(66, 91, 145);
+}
+
+nav ul li {
+    padding: 30px;
+    display: inline-block;
+    position: relative;
+}
+
+nav ul li a {
+    font-family: 'Source Code Pro', monospace;
+    font-size: x-large;
+    padding: 35px;
+    color:rgb(255, 255, 255);
+}
+nav a:hover {
+    background-color: rgb(75, 75, 75);
+} 
+p {
+    font-family: 'Bebas Neue', cursive;
+    font-size: x-large;
+    text-align: center;
+}
+h1 {
+
+    font-family: 'Abril Fatface', cursive;
+    text-align: center;
+    color:  rgb(75, 75, 75);
+}
+h2 {
+
+    font-family: 'Abril Fatface', cursive;
+}
+h3 {
+
+    font-family: 'Abril Fatface', cursive;
+
+}
+.form1 {
+    width: 80%;
+}
+.form2 {
+    width: 80%;
+    padding: 5%;
+}
+form input {
+    margin: 1%;
+    text-align: center;
+    display: block;
+}
+
+footer {
+    background-color: rgb(66, 91, 145);
+}
+.separationFooter {
+   
+    padding: 4%;
+
+}
+

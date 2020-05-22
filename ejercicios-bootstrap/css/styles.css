@@ -1,0 +1,41 @@
+div {  
+    height: 150px;
+    border: 3px solid white;  
+    padding: 3%; 
+}
+.header {
+    height: 50px;
+}
+.headerbot {
+    height: 300px;
+}
+.row {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+.blue {
+    background-color: blue;
+}
+.pink {
+    background-color: pink;
+}
+.orange {
+    background-color: orange;
+}
+.lightblue {
+    background-color: paleturquoise;
+}
+.black {
+    background-color: black;
+}
+.green {
+    background-color: chartreuse;
+}
+.aquamarine {
+    background-color: aqua;
+}
+.grey {
+    background-color: grey;
+}
+
+
